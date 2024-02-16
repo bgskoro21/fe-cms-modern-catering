@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+body {
+  background: rgb(235, 235, 255);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-greys {
+  background: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.img-wrapper {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+}
+
+.bg-purple,
+.bg-red,
+.bg-blue,
+.bg-green,
+.bg-purple:hover,
+.bg-red:hover,
+.bg-blue:hover,
+.bg-green:hover {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bg-purple,
+.bg-red,
+.bg-blue,
+.bg-green {
+  transition: 0.5s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-blue {
+  color: #194a8d;
+}
+
+.bg-green {
+  background-color: #319268;
+}
+
+.bg-blue {
+  background-color: #194a8d;
+}
+
+.bg-red {
+  background-color: #c0183a;
+}
+
+.bg-purple {
+  background-color: #8f3985;
+}
+
+.bg-green:hover {
+  background-color: #00532f;
+}
+
+.bg-blue:hover {
+  background-color: #001c42;
+}
+
+.bg-red:hover {
+  background-color: #a50223;
+}
+
+.btn.bg-purple:hover {
+  background-color: #851578;
+}
+
+body::-webkit-scrollbar {
+  width: 12px; /* Lebar scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #dadada;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #7e0000; /* Warna thumb scrollbar */
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #974f4f; /* Warna thumb scrollbar saat dihover */
 }

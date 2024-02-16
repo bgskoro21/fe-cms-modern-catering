@@ -1,0 +1,19 @@
+#penjualan:hover,
+#pelanggan:hover,
+#paket:hover {
+  background-color: rgb(175, 96, 96);
+  color: white;
+}
+
+#penjualan,
+#pelanggan,
+#paket {
+  transition: 0.1s;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.active {
+  background-color: rgb(175, 96, 96);
+  color: white;
+}
